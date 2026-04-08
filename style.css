@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+    padding: 10px;
+}
+
+#top-right-nav{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #391959;
+    font-size: 15px;
+}
+
+#logo{
+    color: #1F1F1F;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+#logo>span{
+    color: #E7000B;
+}
+
+nav{
+border-bottom: 1px solid #E5E7EB;
+}
+.navbar{
+    margin: 0px 150px;
+    
+    
+}
+main{
+    margin: 0px 150px;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#search-box{
+    border: 0.5px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 4px  30px 4px 30px;
+}
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 7px;
+  color: #4D667F; /* Matches the blue-grey in your image */
+  pointer-events: none; /* Allows clicks to pass through to the input */
+}
+
+.f-c{
+    display: flex; flex-direction: column; justify-content: space-between;
+}
+.f-r{
+    
+    display: flex; justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
+
+#learn-more-btn{
+    background-color: white; border: 0.7px solid lightblue;
+    border-radius: 12px;
+    padding: 10px;
+    color: black;
+}
+
+#explore-courses-btn{
+    background-color: #001959; border: 0.7px solid #001959;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    margin-left: 10px;
+}
+
+.avatar-container {
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    background-color:#828ACD;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.avatar-icon {
+  
+  stroke: #150861;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.vertical-line {
+    width: 2.5px;
+    height: 80px; /* Adjust this to make the line shorter or taller */
+    background-color: #E5E7EB; /* Subtle white/grey */
+    margin: 0 20px; /* Space between the line and the text */
+}
